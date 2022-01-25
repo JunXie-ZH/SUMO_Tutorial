@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 01/23/22 22:51:00 by Eclipse SUMO netedit Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\xiej2\Desktop\SUMO_Parking\example\P1\park.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\xiej2\Desktop\SUMO_Parking\example\P1\park.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="C:\Users\xiej2\Desktop\SUMO_Parking\example\P1\IntellPark.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <parkingArea id="parkingArea_C2B2_0_0" lane="C2B2_0" startPos="5.00" endPos="35.00">
+        <space x="60.00" y="104.00" width="3.00"/>
+        <space x="63.00" y="104.00" width="3.00"/>
+        <space x="66.00" y="104.00" width="3.00"/>
+        <space x="69.00" y="104.00" width="3.00"/>
+        <space x="72.00" y="104.00" width="3.00"/>
+        <space x="75.00" y="104.00" width="3.00"/>
+        <space x="84.00" y="104.00" width="3.00"/>
+        <space x="87.00" y="104.00" width="3.00"/>
+        <space x="81.00" y="104.00" width="3.00"/>
+        <space x="78.00" y="104.00" width="3.00"/>
+    </parkingArea>
+	
+	<parkingArea id="parkingArea_D2C2_0_0" lane="D2C2_0" startPos="5.00" endPos="35.00">
+        <space x="110.00" y="104.00" width="3.00"/>
+        <space x="113.00" y="104.00" width="3.00"/>
+        <space x="116.00" y="104.00" width="3.00"/>
+        <space x="119.00" y="104.00" width="3.00"/>
+        <space x="122.00" y="104.00" width="3.00"/>
+        <space x="125.00" y="104.00" width="3.00"/>
+        <space x="134.00" y="104.00" width="3.00"/>
+        <space x="137.00" y="104.00" width="3.00"/>
+        <space x="131.00" y="104.00" width="3.00"/>
+        <space x="128.00" y="104.00" width="3.00"/>
+    </parkingArea>
+	
+	<parkingArea id="parkingArea_E2D2_0_0" lane="E2D2_0" startPos="5.00" endPos="35.00">
+        <space x="160.00" y="104.00" width="3.00"/>
+        <space x="163.00" y="104.00" width="3.00"/>
+        <space x="166.00" y="104.00" width="3.00"/>
+        <space x="169.00" y="104.00" width="3.00"/>
+        <space x="172.00" y="104.00" width="3.00"/>
+        <space x="175.00" y="104.00" width="3.00"/>
+        <space x="184.00" y="104.00" width="3.00"/>
+        <space x="187.00" y="104.00" width="3.00"/>
+        <space x="181.00" y="104.00" width="3.00"/>
+        <space x="178.00" y="104.00" width="3.00"/>
+    </parkingArea>
+	
+    <parkingArea id="parkingArea_B3C3_0_0" lane="B3C3_0" startPos="5.00" endPos="35.00">
+        <space x="60.00" y="138.00" width="3.00"/>
+        <space x="63.00" y="138.00" width="3.00"/>
+        <space x="66.00" y="138.00" width="3.00"/>
+        <space x="69.00" y="138.00" width="3.00"/>
+        <space x="72.00" y="138.00" width="3.00"/>
+        <space x="75.00" y="138.00" width="3.00"/>
+        <space x="84.00" y="138.00" width="3.00"/>
+        <space x="87.00" y="138.00" width="3.00"/>
+        <space x="81.00" y="138.00" width="3.00"/>
+        <space x="78.00" y="138.00" width="3.00"/>
+    </parkingArea>
+	
+	<parkingArea id="parkingArea_C3D3_0_0" lane="C3D3_0" startPos="5.00" endPos="35.00">
+        <space x="110.00" y="138.00" width="3.00"/>
+        <space x="113.00" y="138.00" width="3.00"/>
+        <space x="116.00" y="138.00" width="3.00"/>
+        <space x="119.00" y="138.00" width="3.00"/>
+        <space x="122.00" y="138.00" width="3.00"/>
+        <space x="125.00" y="138.00" width="3.00"/>
+        <space x="134.00" y="138.00" width="3.00"/>
+        <space x="137.00" y="138.00" width="3.00"/>
+        <space x="131.00" y="138.00" width="3.00"/>
+        <space x="128.00" y="138.00" width="3.00"/>
+    </parkingArea>
+	
+	<parkingArea id="parkingArea_D3E3_0_0" lane="D3E3_0" startPos="5.00" endPos="35.00">
+        <space x="160.00" y="138.00" width="3.00"/>
+        <space x="163.00" y="138.00" width="3.00"/>
+        <space x="166.00" y="138.00" width="3.00"/>
+        <space x="169.00" y="138.00" width="3.00"/>
+        <space x="172.00" y="138.00" width="3.00"/>
+        <space x="175.00" y="138.00" width="3.00"/>
+        <space x="184.00" y="138.00" width="3.00"/>
+        <space x="187.00" y="138.00" width="3.00"/>
+        <space x="181.00" y="138.00" width="3.00"/>
+        <space x="178.00" y="138.00" width="3.00"/>
+    </parkingArea>
+	
+	<parkingArea id="parkingArea_E3D3_0_0" lane="E3D3_0" startPos="5.00" endPos="35.00">
+        <space x="160.00" y="154.00" width="3.00"/>
+        <space x="163.00" y="154.00" width="3.00"/>
+        <space x="166.00" y="154.00" width="3.00"/>
+        <space x="169.00" y="154.00" width="3.00"/>
+        <space x="172.00" y="154.00" width="3.00"/>
+        <space x="175.00" y="154.00" width="3.00"/>
+        <space x="184.00" y="154.00" width="3.00"/>
+        <space x="187.00" y="154.00" width="3.00"/>
+        <space x="181.00" y="154.00" width="3.00"/>
+        <space x="178.00" y="154.00" width="3.00"/>
+    </parkingArea>
+	
+		
+	<parkingArea id="parkingArea_D3C3_0_0" lane="D3C3_0" startPos="5.00" endPos="35.00">
+        <space x="110.00" y="154.00" width="3.00"/>
+        <space x="113.00" y="154.00" width="3.00"/>
+        <space x="116.00" y="154.00" width="3.00"/>
+        <space x="119.00" y="154.00" width="3.00"/>
+        <space x="122.00" y="154.00" width="3.00"/>
+        <space x="125.00" y="154.00" width="3.00"/>
+        <space x="134.00" y="154.00" width="3.00"/>
+        <space x="137.00" y="154.00" width="3.00"/>
+        <space x="131.00" y="154.00" width="3.00"/>
+        <space x="128.00" y="154.00" width="3.00"/>
+    </parkingArea>
+	
+	<parkingArea id="parkingArea_C3B3_0_0" lane="C3B3_0" startPos="5.00" endPos="35.00">
+        <space x="60.00" y="154.00" width="3.00"/>
+        <space x="63.00" y="154.00" width="3.00"/>
+        <space x="66.00" y="154.00" width="3.00"/>
+        <space x="69.00" y="154.00" width="3.00"/>
+        <space x="72.00" y="154.00" width="3.00"/>
+        <space x="75.00" y="154.00" width="3.00"/>
+        <space x="84.00" y="154.00" width="3.00"/>
+        <space x="87.00" y="154.00" width="3.00"/>
+        <space x="81.00" y="154.00" width="3.00"/>
+        <space x="78.00" y="154.00" width="3.00"/>
+    </parkingArea>
+	
+	<parkingArea id="parkingArea_B4C4_0_0" lane="B4C4_0" startPos="5.00" endPos="35.00">
+        <space x="60.00" y="188.00" width="3.00"/>
+        <space x="63.00" y="188.00" width="3.00"/>
+        <space x="66.00" y="188.00" width="3.00"/>
+        <space x="69.00" y="188.00" width="3.00"/>
+        <space x="72.00" y="188.00" width="3.00"/>
+        <space x="75.00" y="188.00" width="3.00"/>
+        <space x="84.00" y="188.00" width="3.00"/>
+        <space x="87.00" y="188.00" width="3.00"/>
+        <space x="81.00" y="188.00" width="3.00"/>
+        <space x="78.00" y="188.00" width="3.00"/>
+    </parkingArea>
+	
+	<parkingArea id="parkingArea_C4D4_0_0" lane="C4D4_0" startPos="5.00" endPos="35.00">
+        <space x="110.00" y="188.00" width="3.00"/>
+        <space x="113.00" y="188.00" width="3.00"/>
+        <space x="116.00" y="188.00" width="3.00"/>
+        <space x="119.00" y="188.00" width="3.00"/>
+        <space x="122.00" y="188.00" width="3.00"/>
+        <space x="125.00" y="188.00" width="3.00"/>
+        <space x="134.00" y="188.00" width="3.00"/>
+        <space x="137.00" y="188.00" width="3.00"/>
+        <space x="131.00" y="188.00" width="3.00"/>
+        <space x="128.00" y="188.00" width="3.00"/>
+    </parkingArea>
+	
+	<parkingArea id="parkingArea_D4E4_0_0" lane="D4E4_0" startPos="5.00" endPos="35.00">
+        <space x="160.00" y="188.00" width="3.00"/>
+        <space x="163.00" y="188.00" width="3.00"/>
+        <space x="166.00" y="188.00" width="3.00"/>
+        <space x="169.00" y="188.00" width="3.00"/>
+        <space x="172.00" y="188.00" width="3.00"/>
+        <space x="175.00" y="188.00" width="3.00"/>
+        <space x="184.00" y="188.00" width="3.00"/>
+        <space x="187.00" y="188.00" width="3.00"/>
+        <space x="181.00" y="188.00" width="3.00"/>
+        <space x="178.00" y="188.00" width="3.00"/>
+    </parkingArea>
+	
+	<parkingArea id="parkingArea_C4B4_0_0" lane="C4B4_0" startPos="5.00" endPos="35.00">
+        <space x="60.00" y="204.00" width="3.00"/>
+        <space x="63.00" y="204.00" width="3.00"/>
+        <space x="66.00" y="204.00" width="3.00"/>
+        <space x="69.00" y="204.00" width="3.00"/>
+        <space x="72.00" y="204.00" width="3.00"/>
+        <space x="75.00" y="204.00" width="3.00"/>
+        <space x="84.00" y="204.00" width="3.00"/>
+        <space x="87.00" y="204.00" width="3.00"/>
+        <space x="81.00" y="204.00" width="3.00"/>
+        <space x="78.00" y="204.00" width="3.00"/>
+    </parkingArea>
+	
+	<parkingArea id="parkingArea_D4C4_0_0" lane="D4C4_0" startPos="5.00" endPos="35.00">
+        <space x="110.00" y="204.00" width="3.00"/>
+        <space x="113.00" y="204.00" width="3.00"/>
+        <space x="116.00" y="204.00" width="3.00"/>
+        <space x="119.00" y="204.00" width="3.00"/>
+        <space x="122.00" y="204.00" width="3.00"/>
+        <space x="125.00" y="204.00" width="3.00"/>
+        <space x="134.00" y="204.00" width="3.00"/>
+        <space x="137.00" y="204.00" width="3.00"/>
+        <space x="131.00" y="204.00" width="3.00"/>
+        <space x="128.00" y="204.00" width="3.00"/>
+    </parkingArea>
+	
+	<parkingArea id="parkingArea_E4D4_0_0" lane="E4D4_0" startPos="5.00" endPos="35.00">
+        <space x="160.00" y="204.00" width="3.00"/>
+        <space x="163.00" y="204.00" width="3.00"/>
+        <space x="166.00" y="204.00" width="3.00"/>
+        <space x="169.00" y="204.00" width="3.00"/>
+        <space x="172.00" y="204.00" width="3.00"/>
+        <space x="175.00" y="204.00" width="3.00"/>
+        <space x="184.00" y="204.00" width="3.00"/>
+        <space x="187.00" y="204.00" width="3.00"/>
+        <space x="181.00" y="204.00" width="3.00"/>
+        <space x="178.00" y="204.00" width="3.00"/>
+    </parkingArea>
+	
+	<parkingArea id="parkingArea_B5C5_0_0" lane="B5C5_0" startPos="5.00" endPos="35.00">
+        <space x="60.00" y="238.00" width="3.00"/>
+        <space x="63.00" y="238.00" width="3.00"/>
+        <space x="66.00" y="238.00" width="3.00"/>
+        <space x="69.00" y="238.00" width="3.00"/>
+        <space x="72.00" y="238.00" width="3.00"/>
+        <space x="75.00" y="238.00" width="3.00"/>
+        <space x="84.00" y="238.00" width="3.00"/>
+        <space x="87.00" y="238.00" width="3.00"/>
+        <space x="81.00" y="238.00" width="3.00"/>
+        <space x="78.00" y="238.00" width="3.00"/>
+    </parkingArea>
+	
+	<parkingArea id="parkingArea_C5D5_0_0" lane="C5D5_0" startPos="5.00" endPos="35.00">
+        <space x="110.00" y="238.00" width="3.00"/>
+        <space x="113.00" y="238.00" width="3.00"/>
+        <space x="116.00" y="238.00" width="3.00"/>
+        <space x="119.00" y="238.00" width="3.00"/>
+        <space x="122.00" y="238.00" width="3.00"/>
+        <space x="125.00" y="238.00" width="3.00"/>
+        <space x="134.00" y="238.00" width="3.00"/>
+        <space x="137.00" y="238.00" width="3.00"/>
+        <space x="131.00" y="238.00" width="3.00"/>
+        <space x="128.00" y="238.00" width="3.00"/>
+    </parkingArea>
+	
+	<parkingArea id="parkingArea_D5E5_0_0" lane="D5E5_0" startPos="5.00" endPos="35.00">
+        <space x="160.00" y="238.00" width="3.00"/>
+        <space x="163.00" y="238.00" width="3.00"/>
+        <space x="166.00" y="238.00" width="3.00"/>
+        <space x="169.00" y="238.00" width="3.00"/>
+        <space x="172.00" y="238.00" width="3.00"/>
+        <space x="175.00" y="238.00" width="3.00"/>
+        <space x="184.00" y="238.00" width="3.00"/>
+        <space x="187.00" y="238.00" width="3.00"/>
+        <space x="181.00" y="238.00" width="3.00"/>
+        <space x="178.00" y="238.00" width="3.00"/>
+    </parkingArea>
+</additional>
